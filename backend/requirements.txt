@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+httpx
+bs4
+readability-lxml
+google-generativeai
+faiss-cpu
+tqdm
+sentence-transformers
