@@ -1,9 +1,10 @@
 fastapi
-uvicorn
+uvicorn[standard]
 httpx
-bs4
-readability-lxml
-google-generativeai
+beautifulsoup4
+pydantic
+langchain
+langchain-community
+langchain-core
+langchain-google-genai
 faiss-cpu
-tqdm
-sentence-transformers
