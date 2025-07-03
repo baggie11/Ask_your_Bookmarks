@@ -28,15 +28,21 @@ Tired of saving hundreds of bookmarks and forgetting why you saved them in the f
 
 ## 🛠️ Tech Stack
 
-- **Chrome Extension (Frontend)**
-  - JavaScript
-  - Bookmark API
-  - Semantic UI & DOM rendering
+| **Component**                | **Technology**                                                                 |
+|-----------------------------|---------------------------------------------------------------------------------|
+| **🖥️ Frontend (Chrome Extension)** |                                                                                 |
+| Language                    | JavaScript                                                                     |
+| APIs                        | Chrome Bookmark API                                                             |
+| UI Library                  | Semantic UI                                                                     |
+| Rendering                   | DOM manipulation/rendering                                                      |
+| **🧠 Backend**              |                                                                                 |
+| Framework                   | Python + FastAPI                                                                |
+| Web Requests                | [`httpx`](https://www.python-httpx.org/)                                       |
+| Web Scraping                | [`BeautifulSoup`](https://www.crummy.com/software/BeautifulSoup/)              |
+| LLM Orchestration           | [`langchain`](https://www.langchain.com/)                                      |
+| Vector DB                   | [`FAISS`](https://github.com/facebookresearch/faiss)                           |
+| Embeddings                  | [`GoogleGenerativeAIEmbeddings`](https://python.langchain.com/docs/integrations/text_embedding/google_generative_ai/) |
 
-- **Backend**
-  - Python + FastAPI
-  - `httpx`, `BeautifulSoup`
-  - `langchain`, `FAISS`, `GoogleGenerativeAIEmbeddings`
 
 ---
 
