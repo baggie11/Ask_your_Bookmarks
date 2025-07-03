@@ -46,6 +46,13 @@ Tired of saving hundreds of bookmarks and forgetting why you saved them in the f
 
 ---
 
+## Screenshots
+
+![image](https://github.com/user-attachments/assets/20d678ac-9ef4-4897-9329-cc5a7eeb7093)
+
+![image](https://github.com/user-attachments/assets/9a782657-1101-4f48-97af-5e0c16acfed0)
+
+
 ## 📦 Setup Instructions
 
 ### 🔌 Backend
