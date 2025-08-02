@@ -1,22 +1,22 @@
-# 🔖 Bookmark AI — Smarter Search for Your Saved Links
+# Bookmark AI — Smarter Search for Your Saved Links
 
 Tired of saving hundreds of bookmarks and forgetting why you saved them in the first place?  
 **Bookmark AI** lets you semantically search through your Chrome bookmarks using natural language — not just keywords or page titles!
 
 ---
 
-## 🌟 Features
+## Features
 
-- ✅ **One-click semantic search** over your saved bookmarks  
-- 🔍 Powered by **Google Gemini embeddings** and **FAISS vector search**
-- 📚 Extracts **real content** from bookmarked pages (not just titles)
-- 🧠 Understands your questions even if you forgot the exact wording
-- 🗂️ Works across **all folders** in your Chrome bookmarks
-- ⚡ FastAPI backend with Chrome Extension frontend
+- **One-click semantic search** over your saved bookmarks  
+- Powered by **Google Gemini embeddings** and **FAISS vector search**
+- Extracts **real content** from bookmarked pages (not just titles)
+- Understands your questions even if you forgot the exact wording
+- Works across **all folders** in your Chrome bookmarks
+- FastAPI backend with Chrome Extension frontend
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 1. **Fetches** your saved Chrome bookmarks
 2. **Scrapes** the content + titles of each URL using `BeautifulSoup`
@@ -26,16 +26,16 @@ Tired of saving hundreds of bookmarks and forgetting why you saved them in the f
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | **Component**                | **Technology**                                                                 |
 |-----------------------------|---------------------------------------------------------------------------------|
-| **🖥️ Frontend (Chrome Extension)** |                                                                                 |
+| **Frontend (Chrome Extension)** |                                                                                 |
 | Language                    | JavaScript                                                                     |
 | APIs                        | Chrome Bookmark API                                                             |
 | UI Library                  | Semantic UI                                                                     |
 | Rendering                   | DOM manipulation/rendering                                                      |
-| **🧠 Backend**              |                                                                                 |
+| **Backend**              |                                                                                 |
 | Framework                   | Python + FastAPI                                                                |
 | Web Requests                | [`httpx`](https://www.python-httpx.org/)                                       |
 | Web Scraping                | [`BeautifulSoup`](https://www.crummy.com/software/BeautifulSoup/)              |
@@ -53,7 +53,7 @@ Tired of saving hundreds of bookmarks and forgetting why you saved them in the f
 ![image](https://github.com/user-attachments/assets/9a782657-1101-4f48-97af-5e0c16acfed0)
 
 
-## 📦 Setup Instructions
+## Setup Instructions
 
 ### 🔌 Backend
 
