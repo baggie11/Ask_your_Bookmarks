@@ -89,7 +89,7 @@ async def extract_text_and_title_from_url(url:str) -> dict:
 @app.post("/refresh_index")
 async def refresh_index(data : BookmarkRefreshRequests):
     #filter out only valid URLs
-    urls = [url for url in data.bookmarks if is_valid_url]
+    urls = [url for url in data.bookmarks if is_valid_url(url)]
     #create a list of scraping tasks(run parallel)
     # Run all extract_text_and_title_from_url(url) coroutines concurrently and collect their results in order
 
