@@ -46,7 +46,6 @@ app.add_middleware(
 #define request models
 class AskRequest(BaseModel):
     question : str
-    bookmarks : List[str]
 
 class BookmarkRefreshRequests(BaseModel):
     bookmarks : List[str]
