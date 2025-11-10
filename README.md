@@ -1,6 +1,5 @@
 # Bookmark AI — Smarter Search for Your Saved Links
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-Backend-green.svg)](https://fastapi.tiangolo.com/)
 [![FAISS](https://img.shields.io/badge/FAISS-VectorDB-orange.svg)](https://github.com/facebookresearch/faiss)
@@ -21,6 +20,7 @@ Stop scrolling through endless bookmark lists — just ask what you remember, an
 - [Tech Stack](#tech-stack)
 - [Screenshots](#screenshots)
 - [Setup Instructions](#setup-instructions)
+- [License](#License)
 
 ---
 
@@ -102,7 +102,7 @@ It understands the *context* behind your saved pages by embedding the actual con
 
 ### 🔌 Backend
 
-```bash
+``` bash
 # Clone the repo
 git clone https://github.com/your-username/bookmark-ai.git
 cd bookmark-ai/backend
@@ -114,3 +114,24 @@ Note: Use your Gemini API key by pasting it in app.py:
 
 # Run the FastAPI server
 uvicorn app:app --reload
+
+---
+
+## License
+
+This project is licensed under the **Creative Commons Attribution–NonCommercial 4.0 International (CC BY-NC 4.0)** License.
+
+You are free to:
+- **Share** — copy and redistribute the material in any medium or format.  
+- **Adapt** — remix, transform, and build upon the material.
+
+Under the following terms:
+- **Attribution** — You must give appropriate credit and link back to this repository.  
+- **NonCommercial** — You may **not** use this material for commercial purposes.  
+
+No additional restrictions — you may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+
+📄 Full License: [Creative Commons BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)  
+© 2025 Bagavati Narayanan. All rights reserved.
+
+
