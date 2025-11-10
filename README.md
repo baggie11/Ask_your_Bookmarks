@@ -100,7 +100,7 @@ It understands the *context* behind your saved pages by embedding the actual con
 
 ## Setup Instructions
 
-### 🔌 Backend
+### Backend
 
 ``` bash
 # Clone the repo
@@ -114,7 +114,7 @@ Note: Use your Gemini API key by pasting it in app.py:
 
 # Run the FastAPI server
 uvicorn app:app --reload
-
+```
 ---
 
 ## License
